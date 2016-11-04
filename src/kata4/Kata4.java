@@ -8,7 +8,7 @@ public class Kata4 {
         File file = new File("c:\\");
         String[] names = file.list();
         for (String name : names) {
-            System.out.println("name");
+            System.out.println(name);
         }
     }
 }
